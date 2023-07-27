@@ -1,8 +1,20 @@
-[2023-07-26 15:12:25,476: INFO: stage_01_prepare_data]: 
+[2023-07-27 13:49:37,662: INFO: stage_01_prepare_data]: 
 ********************
-[2023-07-26 15:12:25,476: INFO: stage_01_prepare_data]: >>>>> stage Prepare_data started <<<<<
-[2023-07-26 15:12:25,492: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2023-07-26 15:12:25,492: INFO: common]: yaml file: params.yaml loaded successfully
-[2023-07-26 15:12:25,492: INFO: common]: created directory at: artifacts\prepared
-[2023-07-26 15:12:27,099: INFO: stage_01_prepare_data]: >>>>> stage Prepare_data completed!<<<<<
+[2023-07-27 13:49:37,662: INFO: stage_01_prepare_data]: >>>>> stage Prepare_data started <<<<<
+[2023-07-27 13:49:37,662: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-07-27 13:49:37,662: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-07-27 13:49:37,670: INFO: common]: created directory at: artifacts\prepared
+[2023-07-27 13:49:39,376: INFO: stage_01_prepare_data]: >>>>> stage Prepare_data completed!<<<<<
+
+[2023-07-27 13:50:02,030: INFO: stage_02_featurization]: 
+********************
+[2023-07-27 13:50:02,030: INFO: stage_02_featurization]: >>>>> stage Featurization started <<<<<
+[2023-07-27 13:50:02,030: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-07-27 13:50:02,036: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-07-27 13:50:02,036: INFO: common]: created directory at: artifacts\features
+[2023-07-27 13:50:02,161: INFO: common]: The input data frame artifacts\prepared\train.tsv of size (17536, 3) is read.
+[2023-07-27 13:50:17,853: INFO: data_mgmt]: The output matrix saved at artifacts\features\train.pkl of shape: (17536, 3002)
+[2023-07-27 13:50:17,915: INFO: common]: The input data frame artifacts\prepared\test.tsv of size (7464, 3) is read.
+[2023-07-27 13:50:19,900: INFO: data_mgmt]: The output matrix saved at artifacts\features\test.pkl of shape: (7464, 3002)
+[2023-07-27 13:50:20,190: INFO: stage_02_featurization]: >>>>> stage Featurization completed!<<<<<
 
