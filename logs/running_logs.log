@@ -18,3 +18,23 @@
 [2023-07-27 13:50:19,900: INFO: data_mgmt]: The output matrix saved at artifacts\features\test.pkl of shape: (7464, 3002)
 [2023-07-27 13:50:20,190: INFO: stage_02_featurization]: >>>>> stage Featurization completed!<<<<<
 
+[2023-07-27 14:51:44,051: INFO: stage_03_train]: 
+********************
+[2023-07-27 14:51:44,051: INFO: stage_03_train]: >>>>> stage Training started <<<<<
+[2023-07-27 14:51:44,051: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-07-27 14:51:44,057: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-07-27 14:51:44,057: INFO: common]: created directory at: artifacts\model
+[2023-07-27 14:51:44,067: INFO: stage_03_train]: input matrix size: (17536, 3002)
+[2023-07-27 14:51:44,067: INFO: stage_03_train]: X matrix size: (17536, 3000)
+[2023-07-27 14:51:44,067: INFO: stage_03_train]: Y matrix size or labels: (17536,)
+[2023-07-27 14:51:52,811: INFO: stage_03_train]: saved our model at: artifacts\model\model.pkl
+[2023-07-27 14:51:52,814: INFO: stage_03_train]: >>>>> stage Training completed!<<<<<
+
+[2023-07-28 13:26:32,477: INFO: stage_01_prepare_data]: 
+********************
+[2023-07-28 13:26:32,477: INFO: stage_01_prepare_data]: >>>>> stage Prepare_data started <<<<<
+[2023-07-28 13:26:32,477: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-07-28 13:26:32,477: INFO: common]: yaml file: params.yaml loaded successfully
+[2023-07-28 13:26:32,477: INFO: common]: created directory at: artifacts\prepared
+[2023-07-28 13:26:34,673: INFO: stage_01_prepare_data]: >>>>> stage Prepare_data completed!<<<<<
+
